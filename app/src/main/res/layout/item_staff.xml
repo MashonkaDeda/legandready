@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/staffImage"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <LinearLayout
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/staffName"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Имя сотрудника"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/staffPosition"
+            android:layout_width="151dp"
+            android:layout_height="60dp"
+            android:text="Должность"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

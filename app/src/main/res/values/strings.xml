@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Poxor</string>
+    <string name="hint_name">Введите имя</string>
+    <string name="hint_phone">Введите телефон</string>
+    <string name="send_button">Отправить заявку</string>
+
+</resources>
